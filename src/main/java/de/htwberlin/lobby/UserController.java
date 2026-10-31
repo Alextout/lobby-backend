@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class LobbyController {
+public class UserController {
 
     @GetMapping("/users")
     public List<User> users() {
